@@ -1,4 +1,4 @@
-package com.example.infoforsobes;
+package intern.infoforsobes;
 
 public class Turn {
     public static int[] back(int[] array) {

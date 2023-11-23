@@ -1,9 +1,9 @@
 package com.example.infoforsobes;
 
+import intern.infoforsobes.Turn;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
-import org.junit.jupiter.api.Test;
 import static org.assertj.core.api.Assertions.*;
 
 class TurnTest {
