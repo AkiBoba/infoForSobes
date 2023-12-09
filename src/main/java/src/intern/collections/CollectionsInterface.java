@@ -1,4 +1,4 @@
-package src.collections;
+package src.intern.collections;
 
 public interface CollectionsInterface {
     public int[] list = new int[10];

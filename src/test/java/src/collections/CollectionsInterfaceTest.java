@@ -2,6 +2,8 @@ package src.collections;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import src.intern.collections.CollectionsInterface;
+import src.intern.collections.MyArrayList;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
