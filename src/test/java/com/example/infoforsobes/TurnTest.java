@@ -1,6 +1,6 @@
 package com.example.infoforsobes;
 
-import intern.infoforsobes.Turn;
+import infoforsobes.intern.Turn;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;

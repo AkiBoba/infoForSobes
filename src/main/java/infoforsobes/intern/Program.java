@@ -1,4 +1,4 @@
-package intern.infoforsobes;
+package infoforsobes.intern;
 
 import static java.lang.System.*;
 

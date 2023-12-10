@@ -9,7 +9,7 @@ public class Shape {
         this.b = b;
     }
 
-    public int getPerimetr() {
+    public int getPerimeter() {
         return a + b;
     }
 }

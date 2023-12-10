@@ -9,7 +9,7 @@ public class Prglnc extends Shape {
     }
 
     @Override
-    public int getPerimetr() {
-        return super.getPerimetr()*2;
+    public int getPerimeter() {
+        return super.getPerimeter()*2;
     }
 }
