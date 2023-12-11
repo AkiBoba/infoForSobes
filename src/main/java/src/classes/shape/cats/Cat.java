@@ -1,4 +1,4 @@
-package src.intern.collections.classes.cats;
+package src.classes.shape.cats;
 
 public class Cat extends CatFamily {
     public Cat() {

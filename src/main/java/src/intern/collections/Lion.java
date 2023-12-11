@@ -1,6 +1,6 @@
 package src.intern.collections;
 
-import src.intern.collections.classes.cats.CatFamily;
+import src.classes.shape.cats.CatFamily;
 
 public class Lion extends CatFamily {
     public Lion(int legs, int ayes, boolean canEatPersone) {

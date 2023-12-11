@@ -1,4 +1,4 @@
-package src.intern.collections.classes.cats.shape;
+package src.classes.shape;
 
 public class Shape {
     private int a;

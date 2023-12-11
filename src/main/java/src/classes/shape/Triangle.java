@@ -1,4 +1,4 @@
-package src.intern.collections.classes.cats.shape;
+package src.classes.shape;
 
 public class Triangle extends Shape {
     private int c;

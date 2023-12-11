@@ -1,6 +1,9 @@
 package src.intern.collections.classes.cats.shape;
 
 import org.junit.jupiter.api.Test;
+import src.classes.shape.Prglnc;
+import src.classes.shape.Shape;
+import src.classes.shape.Triangle;
 
 import static org.assertj.core.api.Assertions.assertThat;
 

@@ -1,4 +1,4 @@
-package src.intern.collections.classes.cats.shape;
+package src.classes.shape;
 
 public class Prglnc extends Shape {
     private int a;

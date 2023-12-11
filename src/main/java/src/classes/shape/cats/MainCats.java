@@ -1,4 +1,4 @@
-package src.intern.collections.classes.cats;
+package src.classes.shape.cats;
 
 import src.intern.collections.Lion;
 

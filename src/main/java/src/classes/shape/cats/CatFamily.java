@@ -1,4 +1,4 @@
-package src.intern.collections.classes.cats;
+package src.classes.shape.cats;
 
 public class CatFamily {
     protected int legs;  //protected поля будут доступны только наследникам и в пакете и за пакетом

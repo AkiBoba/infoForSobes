@@ -1,4 +1,4 @@
-package src.intern.collections.Exeptions;
+package src.Exeptions;
 
 public class Fact {
     public int calc(int n) {
