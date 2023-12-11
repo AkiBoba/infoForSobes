@@ -23,6 +23,7 @@ public class MyArrayList implements CollectionsInterface {
 
     @Override
     public void add(int index, Object element) {
+        checkIndex(index);
         checkSizeOfCollection();
         Object[] listForChange = Arrays.copyOfRange(list, index, size);
         list[index] = element;
@@ -31,29 +32,43 @@ public class MyArrayList implements CollectionsInterface {
     }
 
     @Override
-    public void remove(int index) {
+    public boolean remove(int index) {
+        checkIndex(index);
         Object[] listForChange = Arrays.copyOfRange(list, index + 1, size);
         System.arraycopy(listForChange, 0, list, index, listForChange.length);
         list[size] = null;
+        return true;
     }
 
     @Override
-    public void remove(Object element) {
+    public boolean remove(Object element) {
         for (int i = 0; i < size; i++) {
             if (list[i] == element) {
                 remove(i);
-                return;
+                return true;
             }
         }
+        return false;
     }
 
     @Override
     public Object get(int index) {
+        checkIndex(index);
         return list[index];
     }
 
     @Override
     public int getSize() {
         return size;
+    }
+
+    @Override
+    public void clear() {
+        list = new Object[10];
+        size = 10;
+    }
+
+    private void checkIndex(int index) {
+        if (index < 0||index >= size) throw new IndexOutOfBoundsException();
     }
 }
