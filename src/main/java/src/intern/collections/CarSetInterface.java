@@ -1,6 +1,6 @@
 package src.intern.collections;
 
-public interface CarSetInterface {
+public interface CarSetInterface extends Iterable {
     boolean add(Car car);
     boolean remove(Car car);
     int size();

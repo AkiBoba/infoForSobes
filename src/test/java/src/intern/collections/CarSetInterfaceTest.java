@@ -56,4 +56,13 @@ class CarSetInterfaceTest {
         expectedResult = set.contains(new Car("VAZ", 1));
         assertTrue(expectedResult);
     }
+
+    @Test
+    void ifIterateWhenSizeIs0() {
+        int size = set.size();
+        for(Object car : set) {
+            size--;
+        }
+        assertTrue(size ==0);
+    }
 }

@@ -1,6 +1,7 @@
 package src.intern.collections;
 
 import java.sql.Array;
+import java.util.Iterator;
 import java.util.Random;
 
 public class CarSet implements CarSetInterface {
@@ -107,6 +108,35 @@ public class CarSet implements CarSetInterface {
         return result;
     }
 
+    @Override
+    public Iterator<Car> iterator() {
+        return new Iterator() {
+            int index = 0;
+            int indexArray = 0;
+            Entry entry = null;
+            Car car = null;
+            @Override
+            public boolean hasNext() {
+                return index < size;
+            }
+
+            @Override
+            public Car next() {
+                while (set[indexArray] == null) {
+                    indexArray++;
+                }
+                if (entry == null) entry = set[indexArray];
+                car = entry.car;
+                entry = entry.next;
+                if (entry == null) {
+                    indexArray++;
+                }
+                index++;
+                return car;
+            }
+        };
+    }
+
     private class Entry {
         private Car car;
         private Entry next;
@@ -118,9 +148,9 @@ public class CarSet implements CarSetInterface {
     }
 
     private int getAddress(Car car) {
-        if (car.getBrand().length() + car.getSerial() >= 16) {
-            return random.ints(0, 16).findAny().getAsInt();
+        if (car.getBrand().length() + car.getSerial() >= capacity) {
+            return random.ints(capacity).findAny().getAsInt();
         }
-        return car.getBrand().length() + car.getSerial();
+        return Math.abs(car.getBrand().length() + car.getSerial());
     }
 }
