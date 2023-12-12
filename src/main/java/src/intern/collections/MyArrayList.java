@@ -41,7 +41,7 @@ public class MyArrayList implements CollectionsInterface {
     }
 
     @Override
-    public boolean remove(Object element) {
+    public boolean removeObject(Object element) {
         for (int i = 0; i < size; i++) {
             if (list[i] == element) {
                 remove(i);

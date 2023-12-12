@@ -60,7 +60,16 @@ public class MyLinkedList implements CollectionsInterface {
     }
 
     @Override
-    public boolean remove(Object element) {
+    public boolean removeObject(Object element) {
+        if (size == 0 ) return false;
+        MyNode temp = head;
+        for (int i = 0; i < size; i++) {
+            if (temp.getValue().equals(element)) {
+                remove(i);
+                return true;
+            }
+            temp = temp.getNext();
+        }
         return false;
     }
 

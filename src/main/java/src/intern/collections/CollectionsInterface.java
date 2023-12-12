@@ -5,7 +5,7 @@ public interface CollectionsInterface {
     void add(Object element);
     void add(int index, Object element);
     boolean remove(int index);
-    boolean remove(Object element);
+    boolean removeObject(Object element);
     Object get(int index);
     int getSize();
     void clear();

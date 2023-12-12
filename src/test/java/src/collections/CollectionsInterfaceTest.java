@@ -53,7 +53,7 @@ class CollectionsInterfaceTest {
     void testRemove() {
         int expectedElement = 3;
         add3();
-        list.remove(list.get(1));
+        list.remove(1);
         assertEquals(expectedElement, list.get(1));
     }
 
@@ -83,6 +83,30 @@ class CollectionsInterfaceTest {
     @Test
     void outOfBoundThrowEx() {
         assertThrows(IndexOutOfBoundsException.class, () -> list.get(3));
+    }
+
+    @Test
+    void ifRemoveElementReturnSize10() {
+        int expectedSize = 10;
+        int two = 2;
+        add12();
+        list.removeObject(two);
+        list.removeObject(two);
+        assertEquals(expectedSize, list.getSize());
+    }
+
+    @Test
+    void ifRemoveElementReturnTrue() {
+        int two = 3;
+        add3();
+        assertTrue(list.removeObject(two));
+    }
+
+    @Test
+    void ifRemoveElementReturnFalse() {
+        int two = 4;
+        add12();
+        assertTrue(list.removeObject(two));
     }
 
     private void add12() {
