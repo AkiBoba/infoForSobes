@@ -1,8 +1,7 @@
 package src.intern.collections;
 
 import java.sql.Array;
-import java.util.Iterator;
-import java.util.Random;
+import java.util.*;
 
 public class CarSet implements CarSetInterface {
     private int capacity = 16;
@@ -10,6 +9,7 @@ public class CarSet implements CarSetInterface {
     private Entry[] set = new Entry[capacity];
     private int size = 0;
     private Random random = new Random();
+    private final CarComparator carComparator = new CarComparator();
 
     @Override
     public boolean add(Car car) {
@@ -122,6 +122,8 @@ public class CarSet implements CarSetInterface {
 
             @Override
             public Car next() {
+                TreeSet<Car> cars = new TreeSet<>(new CarComparator());
+                PriorityQueue<Car> cars1 = new PriorityQueue<>(carComparator);
                 while (set[indexArray] == null) {
                     indexArray++;
                 }
