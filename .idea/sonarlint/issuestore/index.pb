@@ -3,8 +3,6 @@ L
 src/main/java/src/Test2.java,6\f\6f867bae410ff98dc7375d33cb178a412f4f1168
 M
 src/main/java/src/Model2.java,1\0\100d923b1ae6673bd8a41f76e4eddd5be0ef19e3
-H
-src/main/java/intern/OOP,7\0\70bcf9c82346a5037da5c2a3091999806f436cd2
 M
 src/main/java/Calculator.java,9\0\90877c721c4ed22cafdaaa54f21e2941f52e72d5
 ]
