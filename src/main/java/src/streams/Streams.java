@@ -18,6 +18,7 @@ public class Streams {
         res = list.stream()
                 .filter(p1.negate())
                 .distinct()
+
                 .map(n -> "Sqrt: " + n)
                 .map(s -> s.toLowerCase())
                 .collect(Collectors.toList());

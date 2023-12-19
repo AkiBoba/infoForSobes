@@ -6,7 +6,7 @@ import java.util.Random;
 
 import static java.lang.System.*;
 
-public class Threads {
+public class Threads2 {
     static boolean findOk = false;
 
     public static void main(String[] args) {
@@ -38,6 +38,6 @@ public class Threads {
                 out.println("diff " + diff);
             }
         });
-        thread2.start();
+        thread2.run();
     }
 }
