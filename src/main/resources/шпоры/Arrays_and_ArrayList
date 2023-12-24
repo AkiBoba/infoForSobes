@@ -1,0 +1,12 @@
+Заполнение коллекций одинаковыми значениями в одну строку
+List<String> list = Collections.nCopies(5, "foo");
+System.out.println(list);
+[foo, foo, foo, foo, foo, foo]
+
+
+Вы можете использовать коллекции.nCopies(5, "foo") в качестве однострочного решения для получения списка :
+
+List<String> strArray = Collections.nCopies(5, "foo");
+или объедините его с toArray, чтобы получить массив.
+
+String[] strArray = Collections.nCopies(5, "foo").toArray(new String[5]);
