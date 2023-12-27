@@ -2,6 +2,7 @@
 https://job4j.ru/profile/exercise/33/task/238/232578
 появились в Java версии 8
 https://struchkov.dev/blog/ru/java-stream-api/ Глубокое погружение в Stream API Java: Понимание и Применение
+https://habr.com/ru/articles/677610/ Функциональные интерфейсы в Java 8 → Consumer, Supplier, Predicate и Function. Что к чему и зачем нужны
 
 Функциональный интерфейс - это интерфейс, который содержит только один абстрактный метод. Абстрактный метод - это метод в котором нет реализации.
 
