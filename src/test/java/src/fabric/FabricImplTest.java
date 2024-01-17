@@ -1,4 +1,4 @@
-package src.fabricmetod;
+package src.fabric;
 
 import org.junit.jupiter.api.Test;
 

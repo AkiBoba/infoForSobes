@@ -1,0 +1,3 @@
+https://starkovden.github.io/swagger-ui-tutorial.html    Руководство Swagger UI
+
+https://devhops.ru/dvps/jenkins/basics/#intro   Основы Jenkins

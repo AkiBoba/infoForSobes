@@ -1,4 +1,4 @@
-package src.fabricmetod;
+package src.fabric;
 
 public class Moto implements Vehicle {
     @Override
