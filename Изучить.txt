@@ -23,12 +23,3 @@ Hiber
  GIT
  https://git-scm.com/book/ru/v2
  https://docs.github.com/ru
-
-
-
-
-
-
-
-
- 21221
