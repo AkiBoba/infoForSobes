@@ -1,3 +1,11 @@
-https://starkovden.github.io/swagger-ui-tutorial.html    Руководство Swagger UI
+Руководство Swagger UI
+https://starkovden.github.io/swagger-ui-tutorial.html
 
-https://devhops.ru/dvps/jenkins/basics/#intro   Основы Jenkins
+Основы Jenkins
+https://devhops.ru/dvps/jenkins/basics/#intro
+
+Пять правил код-ревью, для стажёров, джунов и мидлов
+https://tproger.ru/articles/pyat-pravil-kod-revyu-dlya-stazhyorov-dzhunov-i-midlov
+
+Синхронизаторы пакета concurrent
+https://java-online.ru/concurrent-synchronizers.xhtml
