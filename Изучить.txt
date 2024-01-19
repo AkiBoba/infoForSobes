@@ -1,0 +1,34 @@
+Принципы для разработки: KISS, DRY, YAGNI, BDUF, SOLID, APO и бритва Оккама
+https://habr.com/ru/companies/itelma/articles/546372/
+
+Mockito
+https://www.youtube.com/playlist?list=PL7ZzXmLk6CYXS9jdB_znvly0UaKsqxOdi
+
+Swagger
+
+Docker
+
+Jenkins
+
+SpringSecurity
+https://www.youtube.com/playlist?list=PLt91xr-Pp57QEnGJPuI4R_VqEXikn2a76
+
+SQL Join
+https://stepik.org/lesson/206836/step/1?unit=180537
+
+Hiber
+ https://stepik.org/lesson/12405/step/1?unit=2835
+ https://youtu.be/Vtvyw6tE_ns?si=Zy4RjMx1pK8fVlcg
+
+ GIT
+ https://git-scm.com/book/ru/v2
+ https://docs.github.com/ru
+
+
+
+
+
+
+
+
+ 21221
