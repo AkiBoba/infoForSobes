@@ -25,3 +25,4 @@ Hiber
  https://docs.github.com/ru
 
 изучение гит
+изучение гит2
