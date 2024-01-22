@@ -5,6 +5,7 @@ Mockito
 https://www.youtube.com/playlist?list=PL7ZzXmLk6CYXS9jdB_znvly0UaKsqxOdi
 
 Swagger
+https://youtu.be/LnUCr8fY0sk?si=jyxL0KXt0zH2eZO_
 
 Docker
 
@@ -24,5 +25,8 @@ Hiber
  https://git-scm.com/book/ru/v2
  https://docs.github.com/ru
 
-изучение гит
-изучение гит2
+Maven
+https://java-online.ru/maven-dependency.xhtml
+https://javarush.com/groups/posts/3119-java-proekt-ot-a-do-ja-vse-chto-vih-khoteli-znatjh-o-maven
+https://for-each.dev/lessons/b/-maven-dependency-scopes
+https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html
