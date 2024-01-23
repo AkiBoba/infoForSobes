@@ -10,3 +10,6 @@ https://tproger.ru/articles/pyat-pravil-kod-revyu-dlya-stazhyorov-dzhunov-i-midl
 
 Синхронизаторы пакета concurrent
 https://java-online.ru/concurrent-synchronizers.xhtml
+
+Учебник по языку SQL (DDL, DML) на примере диалекта MS SQL Server. Часть первая
+https://habr.com/ru/articles/255361/

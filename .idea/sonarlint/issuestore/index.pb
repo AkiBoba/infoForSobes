@@ -82,3 +82,5 @@ U
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+i
+9src/main/java/infoforsobes/intern/Function_Interfaces.txt,e\8\e898ab0fbb0c74f1fa0b799ce24cb281ede2a8d3

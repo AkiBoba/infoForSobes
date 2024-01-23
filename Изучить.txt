@@ -17,9 +17,13 @@ https://www.youtube.com/playlist?list=PLt91xr-Pp57QEnGJPuI4R_VqEXikn2a76
 SQL Join
 https://stepik.org/lesson/206836/step/1?unit=180537
 
+Учебник по языку SQL (DDL, DML) на примере диалекта MS SQL Server. Часть первая
+https://habr.com/ru/articles/255361/
+
 Hiber
  https://stepik.org/lesson/12405/step/1?unit=2835
  https://youtu.be/Vtvyw6tE_ns?si=Zy4RjMx1pK8fVlcg
+ https://russianblogs.com/article/35881465836/ Разница между CrudRepository JpaRepository PagingAndSortingRepository
 
  GIT
  https://git-scm.com/book/ru/v2
