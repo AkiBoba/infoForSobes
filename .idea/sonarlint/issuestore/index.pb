@@ -21,10 +21,6 @@ h
 8src/main/java/src/interfaceClass/WorkerFunckshional.java,c\d\cd0ba8452a2d03e2b0131d74e7e0be36002400e2
 Z
 *src/main/java/src/decorator/Decorator.java,a\9\a99cf10029d12774f85a2e63ba66a187d02d9054
-7
-pom.xml,4\4\442292b8a7efeabbe4cc176709b833b1792140ec
-Y
-)src/main/java/src/threads/ExeService.java,4\f\4fe4a712f146e9e2697c16fafc775b247c016f0e
 Z
 *src/main/java/src/threads/ExeService1.java,e\0\e06415bba6b323175ce020027540eaf30c5618b4
 Q
@@ -45,14 +41,10 @@ X
 (src/main/java/src/lambda/FilterImpl.java,6\5\650e3d7cff6d1fa3038f24bb2d421988d3b6069f
 X
 (src/main/java/src/lambda/MainFilter.java,f\1\f1ac55d17396f496897f7d5b4659a1eb63106ee7
-W
-'src/main/java/src/threads/Threads2.java,5\4\542288c5fa10ca6cef5248dd5f9a1f3e2c1519dc
 Z
 *src/main/java/src/threads/ExeService3.java,1\d\1dc16d222f013e452fb97f6c0102a17f041dd987
 f
 6src/main/java/src/threads/newTasks/ExeServiceTask.java,0\1\018146cc05537877c98cb3cd3ea8bdcce263d5c6
-R
-"src/main/java/src/threads/ABC.java,8\f\8f6cad4653b73524385bab7377dd9a44acbae7fb
 T
 $src/main/java/src/fabric/Description,4\d\4d01022ec0183e0c91536b478ab77bf169a4546e
 R
@@ -84,3 +76,9 @@ U
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
 i
 9src/main/java/infoforsobes/intern/Function_Interfaces.txt,e\8\e898ab0fbb0c74f1fa0b799ce24cb281ede2a8d3
+a
+1src/main/java/src/fabric/abstractFabric/Ford.java,8\6\867fbc331c729011ebb98995410aa9ff3a569640
+a
+1src/main/java/src/fabric/abstractFabric/Dodg.java,6\a\6af30e64daff0b160cbb37630b2ccc585979aa8c
+g
+7src/main/java/src/fabric/abstractFabric/MainFabric.java,f\d\fd3ee2e719acd0fa38dcdcca04c703ae27642802

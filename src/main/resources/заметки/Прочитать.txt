@@ -1,3 +1,6 @@
+Курсы, уроки, задачи и ответы на вопросы по программированию
+https://for-each.dev/
+
 Руководство Swagger UI
 https://starkovden.github.io/swagger-ui-tutorial.html
 https://youtu.be/LnUCr8fY0sk?si=jyxL0KXt0zH2eZO_

@@ -1,3 +1,6 @@
+Курсы, уроки, задачи и ответы на вопросы по программированию
+https://for-each.dev/
+
 Принципы для разработки: KISS, DRY, YAGNI, BDUF, SOLID, APO и бритва Оккама
 https://habr.com/ru/companies/itelma/articles/546372/
 
@@ -13,6 +16,7 @@ Jenkins
 
 SpringSecurity
 https://www.youtube.com/playlist?list=PLt91xr-Pp57QEnGJPuI4R_VqEXikn2a76
+https://russianblogs.com/article/9288772790/
 
 SQL Join
 https://stepik.org/lesson/206836/step/1?unit=180537
@@ -34,3 +38,6 @@ https://java-online.ru/maven-dependency.xhtml
 https://javarush.com/groups/posts/3119-java-proekt-ot-a-do-ja-vse-chto-vih-khoteli-znatjh-o-maven
 https://for-each.dev/lessons/b/-maven-dependency-scopes
 https://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html
+
+Dockers
+https://youtu.be/qS9KYTcWMlY?si=PsmrghbPFe3-Oxpn
