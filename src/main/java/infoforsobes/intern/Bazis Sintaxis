@@ -480,3 +480,85 @@ https://topjava.ru/blog/pravila-formatirovaniya-koda-v-java2
 
                 System.out.println(ex.getMessage());
             }
+21) Оболочки типов (Wrapper Classes) в Java
+    Оболочки типов — это классы, которые представляют примитивные типы данных в виде объектов. Они нужны для работы с примитивами в контексте, где требуются объекты (например, коллекции, generics, или методы, принимающие Object).
+
+    Основные оболочки типов:
+    Примитивный тип	Оболочка (Wrapper Class)
+    byte	Byte
+    short	Short
+    int	Integer
+    long	Long
+    float	Float
+    double	Double
+    char	Character
+    boolean	Boolean
+    Зачем нужны оболочки типов?
+    Работа с коллекциями:
+    Коллекции (например, ArrayList, HashMap) работают только с объектами, а не с примитивами. Оболочки позволяют хранить примитивы в коллекциях.
+
+    java
+    Copy
+    List<Integer> numbers = new ArrayList<>();
+    numbers.add(10); // Автоупаковка (int -> Integer)
+    Использование в generics:
+    Generics (например, List<T>) работают только с объектами. Оболочки позволяют использовать примитивы в generics.
+
+    java
+    Copy
+    List<Integer> list = new ArrayList<>();
+    Методы, принимающие Object:
+    Если метод принимает Object, то примитивы нельзя передать напрямую. Оболочки решают эту проблему.
+
+    java
+    Copy
+    void print(Object obj) {
+        System.out.println(obj);
+    }
+
+    print(42); // Автоупаковка (int -> Integer)
+    Дополнительные методы:
+    Оболочки предоставляют полезные методы, например, преобразование строк в числа и обратно.
+
+    java
+    Copy
+    int num = Integer.parseInt("123");
+    String str = Integer.toString(123);
+    Автоупаковка (Autoboxing) и распаковка (Unboxing):
+    Автоупаковка — автоматическое преобразование примитива в объект оболочки.
+
+    java
+    Copy
+    Integer i = 10; // int -> Integer
+    Распаковка — автоматическое преобразование объекта оболочки в примитив.
+
+    java
+    Copy
+    int j = i; // Integer -> int
+    Пример:
+    java
+    Copy
+    Integer a = 5; // Автоупаковка
+    int b = a;     // Распаковка
+    Важные моменты:
+    Кэширование:
+    Оболочки для небольших значений (например, Integer от -128 до 127) кэшируются, поэтому == может работать для этих значений, но не для всех.
+
+    java
+    Copy
+    Integer a = 127;
+    Integer b = 127;
+    System.out.println(a == b); // true (кэширование)
+
+    Integer c = 128;
+    Integer d = 128;
+    System.out.println(c == d); // false (разные объекты)
+    NullPointerException:
+    При распаковке null возникает NullPointerException.
+
+    java
+    Copy
+    Integer a = null;
+    int b = a; // NullPointerException
+    Итог:
+    Оболочки типов — это мощный инструмент для работы с примитивами в объектно-ориентированном контексте. Они используются в коллекциях, generics и других ситуациях, где требуются объекты. Автоупаковка и распаковка упрощают работу с ними, но важно помнить о возможных подводных камнях, таких как кэширование и NullPointerException.
